@@ -8,7 +8,6 @@
   "scripts": {
     "ng": "ng",
     "start": "ng serve",
-    "build": "ng build",
     "postinstall": "ng build --aot -prod",
     "build:prod": "ng build --prod --env=prod --aot=false",
     "build:prod:aot": "ng build --prod --env=prod --aot=true",
