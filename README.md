@@ -4,6 +4,9 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
 
 ### Project specific commands:  
 ```bash
+# Node modules install
+npm install
+
 # Start the Application
 npm run start
 
