@@ -3,12 +3,12 @@
   "version": "0.0.0",
   "license": "MIT",
   "engines": {
-    "node": ">=v6.10.2"
+    "node": ">=6.10.2"
   },
   "scripts": {
     "ng": "ng",
     "start": "ng serve",
-    "preinstall": "npm install -g angular-cli",
+    "preinstall": "npm install -g angular-cli@1.5.0",
     "postinstall": "ng build --aot -prod",
     "build:prod": "ng build --prod --env=prod --aot=false",
     "build:prod:aot": "ng build --prod --env=prod --aot=true",
